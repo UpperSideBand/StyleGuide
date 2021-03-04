@@ -23,6 +23,7 @@ h2 {
     font-size: 2rem;
     line-height: 4rem;
     text-decoration: underline;
+    text-align: left;
 }
 
 h3 {
@@ -48,11 +49,11 @@ section {
     margin: 3rem;
 }
 
-.color {
+.color-block {
     display: inline-block;
-    width: 36%;
-    margin: 1rem 1rem;
-    padding: 3rem;
+    width: 48%;
+    margin: 0.5rem 0.5rem;
+    padding: 3rem 0;
     text-align: center;
 }
 
@@ -88,4 +89,8 @@ section {
 
 .fonts {
     line-height: 2rem;
+}
+
+#colour-section {
+    text-align: center;
 }
