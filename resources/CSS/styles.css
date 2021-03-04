@@ -1,0 +1,91 @@
+/* {
+    border: 1px solid red;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: 'Merriweather', serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+    text-indent: 3rem;
+    width: 98%;
+}
+
+header {
+    margin: 3rem;
+}
+
+section {
+    outline: solid 0.2rem black;
+    padding: 3rem;
+    margin: 3rem;
+}
+
+.color {
+    display: inline-block;
+    width: 36%;
+    margin: 1rem 1rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.pink {
+    background-color: #bf1f49;
+    color: #222;
+}
+
+.blue {
+    background-color: #6894a6;
+    color: #222;
+}
+
+.beige {
+    background-color: #f2e1c2;
+    color: #222;
+}
+
+.grey {
+    background-color: #f2efe9;
+    color: #222;
+}
+
+.brown {
+    background-color: #8c7c68;
+    color: #222;
+}
+
+.off-black {
+    background-color: #222;
+    color: #f2e1c2;
+}
+
+.fonts {
+    line-height: 2rem;
+}
